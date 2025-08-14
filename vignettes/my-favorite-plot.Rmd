@@ -175,7 +175,7 @@ step5 <- ggplot(data, aes(x, y)) +
 print(step5)
 ```
 
-**Do you see it?** I added a secret cluster of points that is only visible in the hexagonal bins. This is a great way to show how many data points can hard structure that is important.
+**Do you see it?** I added a secret cluster of points that is only visible in the hexagonal bins. This is a non aesthetic reason why plots with too many points are a bad idea.
 
 *Added bonus*, this is now easy to open in Adobe Illustrator or Inkscape because it doesn't have a million individual points, just a few hexagonal bins.
 
