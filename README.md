@@ -11,20 +11,12 @@ You can install the development version of mrvplot from GitHub with:
 devtools::install_github("mrvollger/mrvplot")
 ```
 
-## Dependencies
-
-This package depends on:
-- ggplot2
-- ggpubr
-- tidyverse
-- data.table
-- cowplot
-
 ## Usage
 
 ```r
 library(mrvplot)
-
-# Example usage
-hello("World")
 ```
+
+## Learn more
+
+To learn more see the [vignettes](https://mrvollger.github.io/mrvplot/articles/my-favorite-plot.html) on my favorite plot.
