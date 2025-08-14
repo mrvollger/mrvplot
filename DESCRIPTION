@@ -13,5 +13,13 @@ Imports:
     ggpubr,
     tidyverse,
     data.table,
-    cowplot
+    cowplot,
+    glue,
+    scales,
+    stringr
+Suggests:
+    knitr,
+    rmarkdown,
+    hexbin
+VignetteBuilder: knitr
 RoxygenNote: 7.2.0

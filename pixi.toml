@@ -1,0 +1,34 @@
+[project]
+name = "mrvplot"
+version = "0.1.0"
+description = "A collection of custom plotting functions built on ggplot2 and related packages"
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+
+[dependencies]
+r-base = ">=4.0"
+r-ggplot2 = "*"
+r-ggpubr = "*"
+r-tidyverse = "*"
+"r-data.table" = "*"
+r-cowplot = "*"
+r-devtools = "*"
+r-roxygen2 = "*"
+r-glue = "*"
+r-scales = "*"
+r-stringr = "*"
+r-knitr = "*"
+r-rmarkdown = "*"
+r-hexbin = "*"
+r-styler = "*"
+radian = "*"
+
+[tasks]
+install-package = "R -e 'devtools::install()'"
+document = "R -e 'devtools::document()'"
+check = "R -e 'devtools::check()'"
+format = "R -e 'styler::style_dir(\".\", exclude_dirs = c(\".pixi\", \"Figures\"))'"
+vignette = { cmd = "R -e 'rmarkdown::render(\"vignettes/my-favorite-plot.Rmd\")'", depends-on = [
+    "format",
+] }
+startup = "radian -e 'devtools::install(); library(mrvplot)'"
