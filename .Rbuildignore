@@ -2,4 +2,5 @@
 ^pixi\.lock$
 ^\.pixi/
 ^README\.md$
+^docs/
 ^Figures/

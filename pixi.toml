@@ -21,6 +21,7 @@ r-knitr = "*"
 r-rmarkdown = "*"
 r-hexbin = "*"
 r-styler = "*"
+r-pkgdown = "*"
 radian = "*"
 
 [tasks]
@@ -31,4 +32,5 @@ format = "R -e 'styler::style_dir(\".\", exclude_dirs = c(\".pixi\", \"Figures\"
 vignette = { cmd = "R -e 'rmarkdown::render(\"vignettes/my-favorite-plot.Rmd\")'", depends-on = [
     "format",
 ] }
+build-site = { cmd = "R -e 'pkgdown::build_site()'", depends-on = ["vignette"] }
 startup = "radian -e 'devtools::install(); library(mrvplot)'"
