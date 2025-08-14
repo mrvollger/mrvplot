@@ -10,14 +10,15 @@ Encoding: UTF-8
 LazyData: true
 Imports:
     ggplot2,
-    ggpubr,
-    tidyverse,
-    data.table,
     cowplot,
+    data.table,
     glue,
     scales,
-    stringr
+    stringr,
+    tools
 Suggests:
+    ggpubr,
+    dplyr,
     knitr,
     rmarkdown,
     hexbin

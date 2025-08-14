@@ -220,11 +220,4 @@ Finally, when you save figure, save them with a width and height of about 3 inch
 mrv_ggsave("Figures/my_favorite_plot.pdf", width = 3, height = 3)
 ```
 
-## Why This is My Favorite
-
-This hexagonal binned plot is my favorite because:
-
-1. **Handles overplotting**: With 100,000 points, individual points would be impossible to distinguish, and trends from overlapping points would be lost.
-2. **Log-transformed color scale**: Reveals subtle density differences across the range
-3. **Clear reference**: The red dashed line makes it easy to see deviations from perfect correlation and along with `coord_fixed()` ensures proper interpretation of the x=y relationship. 
 
