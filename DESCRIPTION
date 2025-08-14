@@ -1,0 +1,17 @@
+Package: mrvplot
+Type: Package
+Title: Custom Plotting Functions
+Version: 0.1.0
+Author: Your Name
+Maintainer: Mitchell R. Vollger <mrvollger@gmail.com>
+Description: A collection of custom plotting functions built on ggplot2 and related packages.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2,
+    ggpubr,
+    tidyverse,
+    data.table,
+    cowplot
+RoxygenNote: 7.2.0
