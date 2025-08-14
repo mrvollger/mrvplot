@@ -46,4 +46,4 @@ mrv_ggsave("my_plot.pdf", width = 3, height = 3)
 
 ## Learn more
 
-To learn more see the [vignettes](https://mrvollger.github.io/mrvplot/articles/my-favorite-plot.html) on my favorite plot.
+To learn more see the [vignette](https://mrvollger.github.io/mrvplot/articles/my-favorite-plot.html) on my favorite plot.

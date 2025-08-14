@@ -213,7 +213,7 @@ Saving the exact data that went into a plot is always important, often useful, a
 
 `mrv_ggsave` also always saves a copy of the plot to "tmp.{ext}" where {ext} is the file extension you specify. This is useful because you can open up one file and as you run or rerun code you will see all the figure updates. I use this when working with R remotely on vscode instead of Rstudio. 
 
-Finally, when you save figure, save them with a width and height of about 3 inches. This is around the size of a journal figure panel, and it is easy to scale up or down from there. If you don't like the look, try adjusting the size of the font, before you change the size of the figure.
+Finally, when you save figures, save them with a width and height of about 3 inches. This is around the size of a journal figure panel, and it is easy to scale up or down from there. If you don't like the look, try adjusting the size of the font, before you change the size of the figure.
 
 ```{r save-favorite, eval=FALSE}
 # Save the favorite plot with data export
